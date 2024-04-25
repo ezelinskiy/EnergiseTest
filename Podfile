@@ -6,6 +6,7 @@ target 'EnergiseTest' do
   use_frameworks!
 
   # Pods for EnergiseTest
-  
+  pod 'Alamofire'
+  pod 'PullToRefresher'
 
 end
