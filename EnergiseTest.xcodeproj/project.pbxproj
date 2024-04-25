@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3FACFB0FCC7466A73B389D /* Pods_EnergiseTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15746B60AA0E175846B41A0B /* Pods_EnergiseTest.framework */; };
 		86727FC72BDACB63004819EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86727FC62BDACB63004819EC /* AppDelegate.swift */; };
 		86727FC92BDACB63004819EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86727FC82BDACB63004819EC /* SceneDelegate.swift */; };
 		86727FCB2BDACB63004819EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86727FCA2BDACB63004819EC /* ViewController.swift */; };
@@ -17,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		011BB62BF1E840E63F831C7F /* Pods-EnergiseTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnergiseTest.debug.xcconfig"; path = "Target Support Files/Pods-EnergiseTest/Pods-EnergiseTest.debug.xcconfig"; sourceTree = "<group>"; };
+		15746B60AA0E175846B41A0B /* Pods_EnergiseTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnergiseTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3337F8C9DA939DF0C1E9F84B /* Pods-EnergiseTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnergiseTest.release.xcconfig"; path = "Target Support Files/Pods-EnergiseTest/Pods-EnergiseTest.release.xcconfig"; sourceTree = "<group>"; };
 		86727FC32BDACB63004819EC /* EnergiseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnergiseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86727FC62BDACB63004819EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86727FC82BDACB63004819EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3FACFB0FCC7466A73B389D /* Pods_EnergiseTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				86727FC52BDACB63004819EC /* EnergiseTest */,
 				86727FC42BDACB63004819EC /* Products */,
+				D63EF77D746138FD65660524 /* Pods */,
+				FA807CBA1FF7F836916185D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +77,24 @@
 			path = EnergiseTest;
 			sourceTree = "<group>";
 		};
+		D63EF77D746138FD65660524 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				011BB62BF1E840E63F831C7F /* Pods-EnergiseTest.debug.xcconfig */,
+				3337F8C9DA939DF0C1E9F84B /* Pods-EnergiseTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA807CBA1FF7F836916185D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15746B60AA0E175846B41A0B /* Pods_EnergiseTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86727FDA2BDACB85004819EC /* Build configuration list for PBXNativeTarget "EnergiseTest" */;
 			buildPhases = (
+				4AD599BA5D94DA40C2246868 /* [CP] Check Pods Manifest.lock */,
 				86727FBF2BDACB63004819EC /* Sources */,
 				86727FC02BDACB63004819EC /* Frameworks */,
 				86727FC12BDACB63004819EC /* Resources */,
@@ -135,6 +161,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AD599BA5D94DA40C2246868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnergiseTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86727FBF2BDACB63004819EC /* Sources */ = {
@@ -222,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -279,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -291,6 +342,7 @@
 		};
 		86727FDB2BDACB85004819EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011BB62BF1E840E63F831C7F /* Pods-EnergiseTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,8 +354,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +371,7 @@
 		};
 		86727FDC2BDACB85004819EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3337F8C9DA939DF0C1E9F84B /* Pods-EnergiseTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -330,8 +383,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
