@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; configuration.title = "{Rate App}"; ObjectID = "P85-x1-UOM"; */
+//"P85-x1-UOM.configuration.title" = "{Rate App}";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "P85-x1-UOM"; */
+"P85-x1-UOM.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "{Contact us}"; ObjectID = "W3H-3A-g5C"; */
+//"W3H-3A-g5C.configuration.title" = "{Contact us}";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "W3H-3A-g5C"; */
+"W3H-3A-g5C.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Second screen"; ObjectID = "WNx-n7-X3P"; */
+"WNx-n7-X3P.title" = "Screen 2";
+
+/* Class = "UITabBarItem"; title = "First screen"; ObjectID = "jFx-mi-WPU"; */
+"jFx-mi-WPU.title" = "Screen 1";
+
+/* Class = "UIButton"; configuration.title = "{Share App}"; ObjectID = "nBX-AS-dVQ"; */
+//"nBX-AS-dVQ.configuration.title" = "{Share App}";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nBX-AS-dVQ"; */
+"nBX-AS-dVQ.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Third screen"; ObjectID = "o1m-d5-r1v"; */
+"o1m-d5-r1v.title" = "Screen 3";

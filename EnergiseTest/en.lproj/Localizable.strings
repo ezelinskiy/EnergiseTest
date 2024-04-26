@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  EnergiseTest
+
+  Created by Evgeniy Zelinskiy on 25.04.2024.
+  
+*/
+
+// First Screen
+"FirstScreen.Title" = "Screen 1";
+
+// Second Screen
+"SecondScreen.Title" = "Screen 2";
+"CountryCell.Title" = "Country";
+"RegionCell.Title" = "Region";
+"CityCell.Title" = "City";
+"ZipCell.Title" = "Zip";
+"TimezoneCell.Title" = "Timezone";
+"QueryCell.Title" = "Query";
+"ReloadCell.Title" = "Reload";
+
+// Third Screen
+"ThirdScreen.Title" = "Screen 3";
+"RateApp.Title" = "Rate app";
+"ShareApp.Title" = "Share app";
+"ContactUs.Title" = "Contact us";

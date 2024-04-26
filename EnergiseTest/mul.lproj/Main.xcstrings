@@ -1,0 +1,30 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Vzc-f8-o7a.title" : {
+      "comment" : "Class = \"UITabBarItem\"; title = \"First screen\"; ObjectID = \"Vzc-f8-o7a\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "First screen"
+          }
+        }
+      }
+    },
+    "zE7-am-IBV.title" : {
+      "comment" : "Class = \"UITabBarItem\"; title = \"Second Screen\"; ObjectID = \"zE7-am-IBV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Second Screen"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
