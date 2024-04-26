@@ -43,7 +43,9 @@ MVC architecture
 * UIActivityViewController
 * SKStoreReviewController
 * Integrate third party libraries using Pods
+  
 **Pods:**
+
 * Alamofire
 * PullToRefresher
 
