@@ -31,11 +31,11 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <mapView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dLU-cf-vgN">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="45"/>
+                        <rect key="frame" x="20" y="10" width="388" height="25"/>
                         <standardMapConfiguration key="preferredConfiguration"/>
                     </mapView>
                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jc7-0e-jia">
-                        <rect key="frame" x="40" y="3" width="348" height="39"/>
+                        <rect key="frame" x="20" y="3" width="388" height="39"/>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="filled" title="Button"/>
                         <connections>
@@ -47,16 +47,16 @@
                     <constraint firstAttribute="trailing" secondItem="joG-w9-IEO" secondAttribute="trailing" constant="20" id="2ra-7W-EAg"/>
                     <constraint firstItem="TYc-2j-8Co" firstAttribute="leading" secondItem="gzw-yr-sJl" secondAttribute="leading" constant="20" id="3UA-7S-Nfl"/>
                     <constraint firstItem="joG-w9-IEO" firstAttribute="centerY" secondItem="gzw-yr-sJl" secondAttribute="centerY" id="DeV-Lv-B8O"/>
-                    <constraint firstItem="jc7-0e-jia" firstAttribute="leading" secondItem="gzw-yr-sJl" secondAttribute="leading" constant="40" id="Jhg-zG-ODV"/>
+                    <constraint firstItem="jc7-0e-jia" firstAttribute="leading" secondItem="gzw-yr-sJl" secondAttribute="leading" constant="20" id="Jhg-zG-ODV"/>
                     <constraint firstAttribute="bottom" secondItem="jc7-0e-jia" secondAttribute="bottom" constant="3" id="Kxu-1o-Jw1"/>
                     <constraint firstItem="jc7-0e-jia" firstAttribute="centerY" secondItem="gzw-yr-sJl" secondAttribute="centerY" id="MgT-KQ-Qjz"/>
-                    <constraint firstAttribute="trailing" secondItem="jc7-0e-jia" secondAttribute="trailing" constant="40" id="ThT-Tf-yAu"/>
-                    <constraint firstItem="dLU-cf-vgN" firstAttribute="leading" secondItem="gzw-yr-sJl" secondAttribute="leading" id="aEU-Zm-7Mc"/>
-                    <constraint firstAttribute="bottom" secondItem="dLU-cf-vgN" secondAttribute="bottom" id="dag-FV-YMt"/>
-                    <constraint firstItem="dLU-cf-vgN" firstAttribute="top" secondItem="gzw-yr-sJl" secondAttribute="top" id="n0P-6n-9vK"/>
+                    <constraint firstAttribute="trailing" secondItem="jc7-0e-jia" secondAttribute="trailing" constant="20" id="ThT-Tf-yAu"/>
+                    <constraint firstItem="dLU-cf-vgN" firstAttribute="leading" secondItem="gzw-yr-sJl" secondAttribute="leading" constant="20" id="aEU-Zm-7Mc"/>
+                    <constraint firstAttribute="bottom" secondItem="dLU-cf-vgN" secondAttribute="bottom" constant="10" id="dag-FV-YMt"/>
+                    <constraint firstItem="dLU-cf-vgN" firstAttribute="top" secondItem="gzw-yr-sJl" secondAttribute="top" constant="10" id="n0P-6n-9vK"/>
                     <constraint firstItem="jc7-0e-jia" firstAttribute="centerX" secondItem="gzw-yr-sJl" secondAttribute="centerX" id="nkL-xg-0aq"/>
                     <constraint firstItem="jc7-0e-jia" firstAttribute="top" secondItem="gzw-yr-sJl" secondAttribute="top" constant="3" id="p1z-c5-tfz"/>
-                    <constraint firstAttribute="trailing" secondItem="dLU-cf-vgN" secondAttribute="trailing" id="sCZ-DK-6UE"/>
+                    <constraint firstAttribute="trailing" secondItem="dLU-cf-vgN" secondAttribute="trailing" constant="20" id="sCZ-DK-6UE"/>
                     <constraint firstItem="TYc-2j-8Co" firstAttribute="centerY" secondItem="gzw-yr-sJl" secondAttribute="centerY" id="trQ-zQ-SSw"/>
                 </constraints>
             </tableViewCellContentView>

@@ -44,6 +44,7 @@ class SecondScreenCell: UITableViewCell {
     private func setupUI() {
         selectionStyle = .none
         mapView.userTrackingMode = .follow
+        mapView.layer.cornerRadius = 10
     }
     
     func fillCellForRowAt(indexPath: IndexPath, model: GeolocationModel) {
