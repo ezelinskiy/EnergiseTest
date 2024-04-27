@@ -31,13 +31,11 @@ class FirstScreenViewController: UIViewController {
     //MARK: - SetupUI
     private func setupUI() {
         buttonPulseAnimation.radius = 90
-        buttonPulseAnimation.position = stopwatchButton.center
         buttonPulseAnimation.backgroundColor = Constants.buttonPulsatorBgColor.cgColor
         stopwatchButton.layer.superlayer?.insertSublayer(buttonPulseAnimation, below: stopwatchButton.layer)
         buttonPulseAnimation.start()
         
         labelPulseAnimation.manualFrameForAnimation = true
-        labelPulseAnimation.position = stopwatchLabel.center
         labelPulseAnimation.backgroundColor = Constants.labelPulsatorBgColor.cgColor
         labelPulseAnimation.animationDuration = 1
         stopwatchLabel.layer.superlayer?.insertSublayer(labelPulseAnimation, below: stopwatchLabel.layer)
@@ -60,6 +58,9 @@ class FirstScreenViewController: UIViewController {
     //MARK: - ViewDidLayoutSubviews
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+        
+        labelPulseAnimation.position = stopwatchLabel.center
+        buttonPulseAnimation.position = stopwatchButton.center
         
         let manualAnimationFrame = CGRect(x: 0, y: 0, width: stopwatchLabel.frame.size.width + 10, height: stopwatchLabel.frame.size.height + 5)
         labelPulseAnimation.manualAnimationFrame = manualAnimationFrame

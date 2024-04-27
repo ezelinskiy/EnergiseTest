@@ -15,7 +15,4 @@ extension UIApplication {
             .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene
     }
     
-    func rateApp() {
-        
-    }
 }

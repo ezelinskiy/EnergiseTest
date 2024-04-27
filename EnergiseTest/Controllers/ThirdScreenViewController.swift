@@ -38,8 +38,8 @@ class ThirdScreenViewController: UITableViewController {
         
         let activityViewController : UIActivityViewController = UIActivityViewController(activityItems: [activityItem], applicationActivities: nil)
         activityViewController.popoverPresentationController?.sourceView = sender
-        activityViewController.popoverPresentationController?.permittedArrowDirections = UIPopoverArrowDirection.down
-        activityViewController.popoverPresentationController?.sourceRect = CGRect(x: 150, y: 150, width: 0, height: 0)
+        activityViewController.popoverPresentationController?.permittedArrowDirections = .any
+        activityViewController.popoverPresentationController?.sourceRect = sender.frame
         activityViewController.isModalInPresentation = true
         self.present(activityViewController, animated: true, completion: nil)
     }
