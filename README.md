@@ -51,4 +51,4 @@ MVC architecture
 
 ## Example what the application do
 
-![Test application example of work.](Documentation/energise_screenrecord.gif)
+![Test application example of work.](Documentation/energise_screenrecord_ex.gif)
