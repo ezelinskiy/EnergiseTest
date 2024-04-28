@@ -48,7 +48,9 @@ class SecondScreenViewController: UIViewController {
     //MARK: - RequestData
     private func requestData() {
         model = GeolocationModel(from: UserDefaults.standard)
-        self.tableView.reloadData()
+        if let model = model, model.existsInUserDefaults {
+            self.tableView.reloadData()
+        }
         
         requestData {
             self.tableView.endRefreshing(at: .top)

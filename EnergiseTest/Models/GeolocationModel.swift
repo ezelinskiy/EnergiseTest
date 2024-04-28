@@ -46,4 +46,8 @@ struct GeolocationModel: Decodable {
         defaults.set(self.org, forKey: "org")
         defaults.synchronize()
     }
+    
+    var existsInUserDefaults: Bool {
+        return (!self.country.isEmpty && !self.regionName.isEmpty && !self.city.isEmpty && self.lat != 0 && self.lon != 0)
+    }
 }
